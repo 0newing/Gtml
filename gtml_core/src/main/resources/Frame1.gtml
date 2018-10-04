@@ -1,0 +1,7 @@
+<gtml>
+    <frame title="Demo" width="640" height="480">
+        <panel width="300" height="300">
+            <label align="center">Hello World</label>
+        </panel>
+    </frame>
+</gtml>
