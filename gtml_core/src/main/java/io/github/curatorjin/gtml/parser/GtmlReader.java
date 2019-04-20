@@ -6,7 +6,7 @@
  * 时间: 2019/2/5  12:58
  *
  */
-package cn.curatorjin.gtml.parser;
+package io.github.curatorjin.gtml.parser;
 
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
@@ -54,7 +54,7 @@ public class GtmlReader
     }
 
     /**
-     * 递归获取所有GElement
+     * 获取GElement
      *
      * @param fileUrl 文件的URL
      */

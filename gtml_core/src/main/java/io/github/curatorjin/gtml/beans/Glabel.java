@@ -6,9 +6,9 @@
  * 时间: 2018/10/4  15:05
  *
  */
-package cn.curatorjin.gtml.beans;
+package io.github.curatorjin.gtml.beans;
 
-import cn.curatorjin.gtml.parser.GElement;
+import io.github.curatorjin.gtml.parser.GElement;
 
 import javax.swing.JLabel;
 
@@ -35,5 +35,11 @@ public class Glabel extends GElement
     public void setPackedLable(JLabel packedLable)
     {
         this.packedLable = packedLable;
+    }
+
+    @Override
+    public void show()
+    {
+
     }
 }

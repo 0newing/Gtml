@@ -6,7 +6,7 @@
  * 时间: 2018/9/28  19:57
  *
  */
-package cn.curatorjin.gtml.utils;
+package io.github.curatorjin.gtml.utils;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

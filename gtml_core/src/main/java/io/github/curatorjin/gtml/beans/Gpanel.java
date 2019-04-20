@@ -6,18 +6,18 @@
  * 时间: 2018/10/4  15:05
  *
  */
-package cn.curatorjin.gtml.beans;
+package io.github.curatorjin.gtml.beans;
 
-import cn.curatorjin.gtml.parser.GElement;
+import io.github.curatorjin.gtml.parser.GElement;
 
 import javax.swing.JPanel;
 
 
 /**
- * Class/Interface/Enum description
+ * GPanel元素
  *
  * @author : 0newing
- * @version : ${VERSION}
+ * @version : 1.0
  */
 public class Gpanel extends GElement
 {
@@ -35,5 +35,11 @@ public class Gpanel extends GElement
     public void setPackedPanel(JPanel packedPanel)
     {
         this.packedPanel = packedPanel;
+    }
+
+    @Override
+    public void show()
+    {
+
     }
 }

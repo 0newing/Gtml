@@ -6,7 +6,7 @@
  * 时间: 2019/2/5  13:22
  *
  */
-package cn.curatorjin.gtml.utils;
+package io.github.curatorjin.gtml.utils;
 
 /**
  * 使用到的常量
@@ -20,5 +20,15 @@ public abstract class GtmlConstant
      * frame节点
      */
     public static final String FRAME = "frame";
+
+    /**
+     * panel节点
+     */
+    public static final String PANEL = "panel";
+
+    /**
+     * label节点
+     */
+    public static final String LABEL = "label";
 
 }

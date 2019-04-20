@@ -6,7 +6,7 @@
  * 时间: 2018/9/28  21:23
  *
  */
-package cn.curatorjin.gtml.utils;
+package io.github.curatorjin.gtml.utils;
 
 import org.apache.log4j.DailyRollingFileAppender;
 import org.apache.log4j.Priority;

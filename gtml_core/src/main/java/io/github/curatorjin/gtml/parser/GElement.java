@@ -6,7 +6,7 @@
  * 时间: 2018/10/4  14:55
  *
  */
-package cn.curatorjin.gtml.parser;
+package io.github.curatorjin.gtml.parser;
 
 import org.dom4j.Attribute;
 
@@ -36,6 +36,11 @@ public abstract class GElement
     private Map<String, String> attributes = new HashMap<>();
 
     /**
+     * 内容
+     */
+    private String content;
+
+    /**
      * 获取属性值
      *
      * @param attrName 属性名
@@ -60,7 +65,7 @@ public abstract class GElement
         attributes.put(attribute.getName(), attribute.getValue());
     }
 
-    public void setAttributes(Map<String, String> attributes)
+    void setAttributes(Map<String, String> attributes)
     {
         this.attributes = attributes;
     }
@@ -74,6 +79,11 @@ public abstract class GElement
         insideElements.add(element);
     }
 
+    /**
+     * 展示
+     */
+    public abstract void show();
+
     @Override
     public String toString()
     {
@@ -82,4 +92,6 @@ public abstract class GElement
                ", attributes=" + attributes +
                '}';
     }
+
+
 }

@@ -6,9 +6,9 @@
  * 时间: 2018/10/4  14:54
  *
  */
-package cn.curatorjin.gtml.beans;
+package io.github.curatorjin.gtml.beans;
 
-import cn.curatorjin.gtml.parser.GElement;
+import io.github.curatorjin.gtml.parser.GElement;
 
 import javax.swing.JFrame;
 
@@ -36,4 +36,9 @@ public class Gframe extends GElement
         this.packedFrame = packedFrame;
     }
 
+    @Override
+    public void show()
+    {
+
+    }
 }
