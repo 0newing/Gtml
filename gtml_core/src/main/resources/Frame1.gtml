@@ -3,8 +3,5 @@
         <panel width="300" height="300">
             <label align="center">Hello World</label>
         </panel>
-        <panel width="300" height="300">
-            <label align="center">Hello World</label>
-        </panel>
     </frame>
 </gtml>
